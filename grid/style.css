@@ -1,0 +1,46 @@
+body{
+    background-color: lightgreen;
+}
+
+.parent{
+    min-height: fit-content;
+    height: 100vh;
+    /* border: 2px solid black; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.formparent{
+    height: 500px;
+    /* border: 1px solid red; */
+    width: 60%;
+    background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.inputparent{
+  /* border: 1px solid black; */
+  height: 70%;
+  width: 70%;
+  display: flex;
+   flex-direction: column;
+   justify-content: space-between;  
+}
+.inp{
+    height: 90px;
+    width: 99%;
+    background-color: white;
+}
+.btn{
+    height: 90px;
+    width: 100%;
+    background-color: darkgreen;
+    text-align: center;
+    color: white;
+}
+p{
+    text-align: center;
+    /* color: white; */
+    background-color: aliceblue;
+}
